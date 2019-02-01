@@ -11,11 +11,11 @@ module.exports = function (config) {
         autoWatch: false,
         reporters: ['progress', 'junit', 'coverage'],
         preprocessors:    {
-            'WebContent/*.js':   ['coverage']
+            '../WebContent/js/*.js':   ['coverage']
         },
         browsers:  ['PhantomJS'],
         junitReporter: {
-            outputFile: 'reports/junit/TESTS-xunit.xml'
+            outputFile: '../reports/junit/tests-xunit.xml'
         },
         coverageReporter: {
             type:   'lcov',
