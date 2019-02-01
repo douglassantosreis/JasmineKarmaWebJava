@@ -13,7 +13,7 @@ describe('plain suite', function() {
     expect(1).toBe(1);
   });
 
-  xit('skipped test in plain suite', function() {
+  it('skipped test in plain suite', function() {
     expect(1).toBe(1);
   });
 });

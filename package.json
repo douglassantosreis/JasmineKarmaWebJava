@@ -1,5 +1,5 @@
 {
-  "name": "JasmineTest",
+  "name": "JasmineKarmaWebJava",
   "version": "0.0.1",
   "devDependencies": {
     "karma": "^4.0.0",
