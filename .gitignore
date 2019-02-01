@@ -1,0 +1,7 @@
+/build/
+/target/
+/PhantomJS_2.1.1_(Windows_8.0.0)/
+/node_modules/
+/reports/
+/.classpath
+/.project
